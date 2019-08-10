@@ -1,0 +1,126 @@
+NUM_THREADS=1
+
+fw_tiled_for_aff
+Size : 1024 Block size: 32 Threads : 1 Time : 0.880797 seconds
+Size : 1024 Block size: 64 Threads : 1 Time : 0.747495 seconds
+Size : 1024 Block size: 128 Threads : 1 Time : 0.733365 seconds
+Size : 1024 Block size: 256 Threads : 1 Time : 0.801004 seconds
+
+Size : 2048 Block size: 32 Threads : 1 Time : 6.87587 seconds
+Size : 2048 Block size: 64 Threads : 1 Time : 5.60585 seconds
+Size : 2048 Block size: 128 Threads : 1 Time : 5.41866 seconds
+Size : 2048 Block size: 256 Threads : 1 Time : 6.00648 seconds
+
+Size : 4096 Block size: 32 Threads : 1 Time : 54.2766 seconds
+Size : 4096 Block size: 64 Threads : 1 Time : 44.2127 seconds
+Size : 4096 Block size: 128 Threads : 1 Time : 45.4089 seconds
+Size : 4096 Block size: 256 Threads : 1 Time : 45.2747 seconds
+
+NUM_THREADS=2
+
+fw_tiled_for_aff
+Size : 1024 Block size: 32 Threads : 2 Time : 0.475465 seconds
+Size : 1024 Block size: 64 Threads : 2 Time : 0.403716 seconds
+Size : 1024 Block size: 128 Threads : 2 Time : 0.422806 seconds
+Size : 1024 Block size: 256 Threads : 2 Time : 0.504985 seconds
+
+Size : 2048 Block size: 32 Threads : 2 Time : 3.48861 seconds
+Size : 2048 Block size: 64 Threads : 2 Time : 2.88104 seconds
+Size : 2048 Block size: 128 Threads : 2 Time : 2.85395 seconds
+Size : 2048 Block size: 256 Threads : 2 Time : 3.38541 seconds
+
+Size : 4096 Block size: 32 Threads : 2 Time : 27.5762 seconds
+Size : 4096 Block size: 64 Threads : 2 Time : 22.4787 seconds
+Size : 4096 Block size: 128 Threads : 2 Time : 23.057 seconds
+Size : 4096 Block size: 256 Threads : 2 Time : 23.434 seconds
+
+NUM_THREADS=4
+
+fw_tiled_for_aff
+Size : 1024 Block size: 32 Threads : 4 Time : 0.260688 seconds
+Size : 1024 Block size: 64 Threads : 4 Time : 0.230338 seconds
+Size : 1024 Block size: 128 Threads : 4 Time : 0.313328 seconds
+Size : 1024 Block size: 256 Threads : 4 Time : 0.436825 seconds
+
+Size : 2048 Block size: 32 Threads : 4 Time : 1.84518 seconds
+Size : 2048 Block size: 64 Threads : 4 Time : 1.52209 seconds
+Size : 2048 Block size: 128 Threads : 4 Time : 1.58285 seconds
+Size : 2048 Block size: 256 Threads : 4 Time : 2.11513 seconds
+
+Size : 4096 Block size: 32 Threads : 4 Time : 14.0505 seconds
+Size : 4096 Block size: 64 Threads : 4 Time : 11.5571 seconds
+Size : 4096 Block size: 128 Threads : 4 Time : 11.9725 seconds
+Size : 4096 Block size: 256 Threads : 4 Time : 12.5276 seconds
+
+NUM_THREADS=8
+
+fw_tiled_for_aff
+Size : 1024 Block size: 32 Threads : 8 Time : 0.170571 seconds
+Size : 1024 Block size: 64 Threads : 8 Time : 0.151243 seconds
+Size : 1024 Block size: 128 Threads : 8 Time : 0.19799 seconds
+Size : 1024 Block size: 256 Threads : 8 Time : 0.381971 seconds
+
+Size : 2048 Block size: 32 Threads : 8 Time : 0.991109 seconds
+Size : 2048 Block size: 64 Threads : 8 Time : 0.816219 seconds
+Size : 2048 Block size: 128 Threads : 8 Time : 0.93108 seconds
+Size : 2048 Block size: 256 Threads : 8 Time : 1.34958 seconds
+
+Size : 4096 Block size: 32 Threads : 8 Time : 7.16868 seconds
+Size : 4096 Block size: 64 Threads : 8 Time : 5.95216 seconds
+Size : 4096 Block size: 128 Threads : 8 Time : 6.25085 seconds
+Size : 4096 Block size: 256 Threads : 8 Time : 7.21393 seconds
+
+NUM_THREADS=16
+
+fw_tiled_for_aff
+Size : 1024 Block size: 32 Threads : 16 Time : 0.131082 seconds
+Size : 1024 Block size: 64 Threads : 16 Time : 0.127029 seconds
+Size : 1024 Block size: 128 Threads : 16 Time : 0.191856 seconds
+Size : 1024 Block size: 256 Threads : 16 Time : 0.428014 seconds
+
+Size : 2048 Block size: 32 Threads : 16 Time : 0.581313 seconds
+Size : 2048 Block size: 64 Threads : 16 Time : 0.491363 seconds
+Size : 2048 Block size: 128 Threads : 16 Time : 0.662367 seconds
+Size : 2048 Block size: 256 Threads : 16 Time : 1.34791 seconds
+
+Size : 4096 Block size: 32 Threads : 16 Time : 3.97362 seconds
+Size : 4096 Block size: 64 Threads : 16 Time : 3.23108 seconds
+Size : 4096 Block size: 128 Threads : 16 Time : 3.62589 seconds
+Size : 4096 Block size: 256 Threads : 16 Time : 4.86756 seconds
+
+NUM_THREADS=32
+
+fw_tiled_for_aff
+Size : 1024 Block size: 32 Threads : 32 Time : 0.139832 seconds
+Size : 1024 Block size: 64 Threads : 32 Time : 0.10456 seconds
+Size : 1024 Block size: 128 Threads : 32 Time : 0.179982 seconds
+Size : 1024 Block size: 256 Threads : 32 Time : 0.392375 seconds
+
+Size : 2048 Block size: 32 Threads : 32 Time : 0.387088 seconds
+Size : 2048 Block size: 64 Threads : 32 Time : 0.341915 seconds
+Size : 2048 Block size: 128 Threads : 32 Time : 0.562036 seconds
+Size : 2048 Block size: 256 Threads : 32 Time : 1.228 seconds
+
+Size : 4096 Block size: 32 Threads : 32 Time : 2.3982 seconds
+Size : 4096 Block size: 64 Threads : 32 Time : 1.99116 seconds
+Size : 4096 Block size: 128 Threads : 32 Time : 2.40918 seconds
+Size : 4096 Block size: 256 Threads : 32 Time : 4.14366 seconds
+
+NUM_THREADS=64
+
+fw_tiled_for_aff
+Size : 1024 Block size: 32 Threads : 64 Time : 0.150331 seconds
+Size : 1024 Block size: 64 Threads : 64 Time : 0.112519 seconds
+Size : 1024 Block size: 128 Threads : 64 Time : 0.210187 seconds
+Size : 1024 Block size: 256 Threads : 64 Time : 0.425884 seconds
+
+Size : 2048 Block size: 32 Threads : 64 Time : 0.365388 seconds
+Size : 2048 Block size: 64 Threads : 64 Time : 0.370514 seconds
+Size : 2048 Block size: 128 Threads : 64 Time : 0.621442 seconds
+Size : 2048 Block size: 256 Threads : 64 Time : 1.44976 seconds
+
+Size : 4096 Block size: 32 Threads : 64 Time : 2.08761 seconds
+Size : 4096 Block size: 64 Threads : 64 Time : 1.73105 seconds
+Size : 4096 Block size: 128 Threads : 64 Time : 2.25325 seconds
+Size : 4096 Block size: 256 Threads : 64 Time : 5.01737 seconds
+

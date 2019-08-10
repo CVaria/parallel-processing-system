@@ -1,0 +1,63 @@
+FW ΤΒΒ with alloc
+
+NUM_THREADS=1
+
+FW Parallel lambda 1d
+Size : 1024 Threads : 1 Time : 2.16794 seconds
+
+Size : 2048 Threads : 1 Time : 18.1232 seconds
+
+Size : 4096 Threads : 1 Time : 144.349 seconds
+
+NUM_THREADS=2
+
+FW Parallel lambda 1d
+Size : 1024 Threads : 2 Time : 1.10634 seconds
+
+Size : 2048 Threads : 2 Time : 8.64311 seconds
+
+Size : 4096 Threads : 2 Time : 74.997 seconds
+
+NUM_THREADS=4
+
+FW Parallel lambda 1d
+Size : 1024 Threads : 4 Time : 0.736977 seconds
+
+Size : 2048 Threads : 4 Time : 5.18492 seconds
+
+Size : 4096 Threads : 4 Time : 40.9553 seconds
+
+NUM_THREADS=8
+
+FW Parallel lambda 1d
+Size : 1024 Threads : 8 Time : 0.469484 seconds
+
+Size : 2048 Threads : 8 Time : 3.16958 seconds
+
+Size : 4096 Threads : 8 Time : 34.0074 seconds
+
+NUM_THREADS=16
+FW Parallel lambda 1d
+Size : 1024 Threads : 16 Time : 0.428513 seconds
+
+Size : 2048 Threads : 16 Time : 2.64108 seconds
+
+Size : 4096 Threads : 16 Time : 31.6781 seconds
+
+NUM_THREADS=32
+
+FW Parallel lambda 1d
+Size : 1024 Threads : 32 Time : 0.424715 seconds
+
+Size : 2048 Threads : 32 Time : 2.54177 seconds
+
+Size : 4096 Threads : 32 Time : 32.4913 seconds
+
+NUM_THREADS=64
+
+FW Parallel lambda 1d
+Size : 1024 Threads : 64 Time : 0.453859 seconds
+
+Size : 2048 Threads : 64 Time : 2.55558 seconds
+
+Size : 4096 Threads : 64 Time : 33.5466 seconds
